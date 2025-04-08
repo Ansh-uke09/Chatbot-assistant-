@@ -4,7 +4,7 @@ import requests
 def get_gemini_response(user_message):
     openrouter_api_url = "https://openrouter.ai/api/v1/completions"
     headers = {
-        "Authorization": "Bearer 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",  # Replace with your OpenRouter API key
+        "Authorization": "",  # Replace with your OpenRouter API key
         "Content-Type": "application/json"
     }
     data = {
